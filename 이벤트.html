@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>대림그라운드 - 뉴스</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .전체 {
+            font: bold 1.2em Arial;
+            color: white;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            text-align: center;
+            align-items: center;
+        }
+
+        .헤더 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 20px;
+            background-color: #1c1c1c;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .로고 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffc107;
+        }
+
+        .메뉴 {
+            display: flex;
+            align-items: center;
+        }
+
+        .메뉴 a {
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+
+        .탭 {
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+            width: 80%;
+            background-color: #333;
+            padding: 10px;
+        }
+
+        .탭 div {
+            flex: 1;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            border-right: 1px solid #444;
+        }
+
+        .탭 div:last-child {
+            border-right: none;
+        }
+
+        .탭 .활성화 {
+            background-color: #ffc107;
+            color: black;
+        }
+
+        .컨텐츠 {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            width: 80%;
+        }
+        
+        .컨텐츠 h1 {
+            font-size: 80px;
+            font-weight: bold;
+            color: rebeccapurple;
+        }
+
+        .박스 {
+            flex: 1;
+            background-color: black;
+            margin: 10px;
+            padding: 20px;
+            height: 400px;
+            letter-spacing: 3px;
+        }
+
+        .박스:hover {
+            background-color: darkgray;
+        }
+    </style>
+</head>
+<body class="전체">
+
+    <div class="헤더">
+        <div class="로고">DLBG BATTLEGROUNDS</div>
+        <div class="메뉴">
+            <a href="메인화면.html">돌아가기</a>
+        </div>
+    </div>
+
+    <div class="탭">
+        <div class="활성화">진행 중</div>
+        <div>종료</div>
+        <div>당첨자 발표</div>
+    </div>
+
+    <div class="컨텐츠">
+
+        
+        <div class="박스">★ 신입생/복학생 지원 이벤트 ★<br><br>"대림그라운드에서 승리를 쟁취하기 위해선 전략적 움직임과 팀워크가 필요하듯, 
+            캠퍼스에서도 적극적인 참여와 협력이 중요합니다! 신입생 및 복학생 여러분을 위해 준비된 이번 특별 이벤트는, 
+            마치 대림대학교의 '학점' 보상처럼 대림그라운드에 참여하고 학점을 보상으로 받을 수 있는 기회를 제공합니다. 
+            대림그라운드의 활동에 참여해 학점을 획득하고, 캠퍼스 생활에서의 승리를 여러분의 것으로 만드세요! 이 기회는 학점을 얻을 수 있는 '최고의 루트'가 될 것입니다."</div>
+        
+        <div class="박스">★ 11월 출석체크 이벤트 ★<br><br>대림그라운드에서의 생존이 단순한 운이 아닌 실시간 전력과 판에 비롯되듯, 
+            캠퍼스 생활에서도 지속적인 참여가 중요합니다. 
+            이번 출석체크 이벤트는 정해진 기간 동안 특정 캠퍼스나 대학교에 출석할 때마다 포인트를 누적하여 학점 보상을 받을 수 있는 기회를 제공합니다. 
+            꾸준히 출석하여 학점을 쟁취하고, 대림그라운드의 생존자처럼 캠퍼스를 승리로 이끄세요!</div>
+            
+        <div class="박스">★ 교내 탐험 챌린지 & 루트 파밍 대작전 ★<br><br>대림그라운드에서 최고의 명당를 선점하기 위해 다양한 장소를 탐험하는 것처럼, 
+            캠퍼스 내 다양한 장소와 활동에 참여하며 '캠퍼스 루트'를 파밍하는 이벤트입니다. 
+            도서관, 체육관, 학생회관 등 다양한 교내 시설을 방문해 QR 코드를 스캔하거나 미션을 수행하면 포인트를 획득할 수 있습니다. 
+            포인트가 누적되면 원하는 총 파츠로 교환할 수 있는 기회가 주어집니다. 탐험을 통해 학교의 숨은 포인트를 발견하고 다양한 파츠를 얻으세요!</div>
+
+        
+    </div>
+
+</body>
+</html>

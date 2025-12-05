@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>대림그라운드 - 임곡관 진영</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .전체 {
+            font: bold 1.2em Arial;
+            color: white;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .헤더 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 20px;
+            background-color: #1c1c1c;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .로고 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffc107;
+        }
+
+        .메뉴 {
+            display: flex;
+            align-items: center;
+        }
+
+        .메뉴 a {
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+
+        .메뉴 a:hover {
+            border: 1px solid palegreen;
+        }
+
+        .메인 {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-grow: 1;
+            margin-top: 80px;
+            padding: 20px;
+            }
+
+
+        .사이드왼쪽 {
+            width: 30%;
+            border: 1px solid white;
+            height: auto;
+            margin-left: 70px;
+            padding: 20px;
+            text-align: left;
+            line-height: 1.6;
+        }
+
+        .사이드오른쪽 {
+            width: 30%;
+            border: 1px solid white;
+            height: auto;
+            margin-right: 70px;
+            padding: 20px;
+            text-align: left;
+            line-height: 1.6;
+        }
+
+        .중앙 {
+            width: 30%;
+        }
+
+        .중앙 img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .중앙 img:hover {
+            max-width: 50%;
+            height: auto;
+            content: url('../배그 html만들기/수행평가 이미지/m16.jpg');
+        }
+
+        .하단이미지 {
+            background-color: white;
+            width: 100%;
+            height: 900px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        .하단이미지 img {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            
+        }
+    </style>
+</head>
+<body class="전체">
+
+    <div class="헤더">
+        <div class="로고">DLBG BATTLEGROUNDS</div>
+        <div class="메뉴">
+            <a href="메인화면.html">돌아가기</a>
+        </div>
+    </div> 
+
+    <div class="메인">
+        <div class="사이드왼쪽">
+            <p>보급 TIP ! </p>
+            
+            DLBG: BATTLEGROUNDS에는 강력한 무기가 탑재된 "보급" 시스템이 존재합니다 
+            캠퍼스의 특정 위치에서만 떨어지는 보급은 학생들이 다른 캠퍼스 전사들과 전투상황에서 보다 유리한 위치에서 싸우며 
+            강력한 성능을 통해 다른 캠퍼스 전사들을 무력화 하여 싸움니다. 
+            
+        </div>
+        <div class="중앙">
+            <h1>임곡관 진영에 참여하셨습니다.</h1>
+            <p>행운을 빕니다..</p>
+            <img src="../배그 html만들기/수행평가 이미지/대림로고.jpg">
+        </div>
+
+        <div class="사이드오른쪽">
+            <p> 캠퍼스 진영소개 </p>
+
+            DLBG: BATTLEGROUNDS에 전산관 캠퍼스는 'm16'의 무기를 가지고 전장에 합류하게됩니다.
+            m16은 빠른 탄환속도와 중장거리 사격에서 높은 고점을 보이는 무기입니다
+            이에 임곡관 캠퍼스의 유저는 사거리의 이점을 이용해 고지대를 미리 차지하여
+            다른 캠퍼스 유저들의 접근을 저지하고 Hit and Run 전술을 구사하는 플레이가 적합합니다
+            
+        </div>
+    </div>
+
+          <div class="하단이미지">
+               <img src="../배그 html만들기/수행평가 이미지/임곡관배경.jpg">
+         </div>
+</body>
+</html>
